@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Estilos.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Formulario para Socios</h1>
+        <form action="#" method="get">
+
+            <fieldset>
+                <Legend>Datos Personales</Legend>
+            Ingresar Nombre <input type="text" name="Nomb_Socio" id="Nbre" ><br>
+            Ingresar Mail <input type="email" name="Mail_Socio" id="Correo"><br>
+            Ingresar Telefono <input type="number" name="Tel_Socio" id="Tel_Soc"><br>
+            Ingresar Fecha de Nacimiento <input type="date" name="Ap_Socio" id="FechaN"><br>
+            Ingresar Contraseña <input type="password" name="Cont_Socio"id="Cont"><br>
+            Ingrese DNI <input type="number" name="Ndni" id="Ndni"><br>
+            
+            <p>Sexo</p>
+            <input type="radio" name="Sexo_Socio" value="Masculino" checked="True"> Masculino
+            <input type="radio" name="Sexo_Socio" value="Femenino"> Femenino
+            <br>
+            <br>
+            <p>Estado Civil</p>
+            <select id="Elegir" name="Elegir">
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+                <option value="Viudo">Viudo</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Grabar" onclick="alert('Formulario Enviado')">
+            <input type="reset" value="Cancelar" onclick="alert('Formulario Cancelado')">
+
+            </fieldset>
+            <br>
+            <hr>
+        </form>
+        <form action="">
+            <fieldset>
+                <Legend>Registro de un Usuario</Legend>
+            Ingresar Apellido <input type="text" name="Ap_Socio" id="Apellido"><br>
+            Ingresar Nombre <input type="text" name="Nomb_Socio" id="Nbre" ><br>
+
+            
+            </select>
+            Genero
+            <input type="radio" name="Sexo_Socio" value="Masculino" checked="True"> Masculino
+            <input type="radio" name="Sexo_Socio" value="Femenino"> Femenino
+            <br>
+            Ocupacion
+            <select id="Elegir" name="Elegir">
+                <option value="Barbero">Barbero</option>
+             </select><br><br>
+             Comentarios
+             <textarea name="Obs_Soc" id="" cols="60" rows="2">Escriba aquí sus comentarios</textarea>
+             <br>
+            <input type="submit" value="Grabar" onclick="alert('Formulario Enviado')">
+            <input type="reset" value="Cancelar" onclick="alert('Formulario Cancelado')">
+        </form>
+    </body>
+</html>
